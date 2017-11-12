@@ -1,0 +1,125 @@
+<html>
+<head>
+		<title></title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Lora:400i" rel="stylesheet">
+	</head>
+	<body>
+
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">Afrina's Website</a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li class="active"><a href="#">Home</a></li>
+		      <li><a href="#">My Tags</a></li>
+		      <li><a href="#">Reviews</a></li>
+		      <li><a href="#">Contact Me</a></li>
+		    </ul>
+		  </div>
+		</nav>
+
+		<audio class="audio" controls>
+		  <source src="perfect.mp3" type="audio/ogg">
+		</audio>
+		
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-2 beige">
+					<p class= sidebar-title>Sidebar Info</p>
+					<img class="img-circle" src="https://i.pinimg.com/736x/01/48/58/0148580b471fefcc9b51014c8dd0909c--spring-london-spring-city.jpg"><h1>Afrina Norshaharom</h1>
+					<p class="card-text animated infinite jello">
+                	Hi there! Welcome to my studyblr.<br>
+                	Feel free to look around!
+           			 </p>
+
+
+					<div class="lower-card">
+		            	<div class="card-text underline">
+		              		<h2 class="card-title">About Me</h2>
+		              		<p>
+		           				Address: A nice home on Tiverton Road
+		            	  	</p>
+		    		        <p>
+		                		Occupation: Student
+		              		</p>
+		              		<p>
+		                		Hobby: Sleep
+		              		</p>
+		              		<a href="https://twitter.com/">
+		              			<img class= twitter src="http://vectorlogo4u.com/wp-content/uploads/2016/06/twitter-icon-vector.png">
+		              		</a>
+		              		<a href="https://www.instagram.com/">
+		              			<img class= instagram src="https://www.seeklogo.net/wp-content/uploads/2015/07/instagram-flat-icon-circle-image.png">
+		              		</a>
+		              		<a href="https://www.facebook.com/">
+		              			<img class="facebook" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_circle_color-256.png">
+		              		</a>
+		            	</div>
+		          	</div>
+
+
+
+		      	</div>
+
+				<div class="col-md-8 peach">
+					<p class="main-text styletitle">"From efforts to high things"</p>
+					<div class="first page">
+						<h3> Code At Uni Workshop <h3>
+
+							<div class="slideshow">
+								<img class="mySlides" src="http://blogs.lse.ac.uk/careers/files/2016/10/4.jpg">
+								<img class="mySlides" src="https://pbs.twimg.com/media/C6t8O2-WcAANvqS.jpg">
+								<img class="mySlides" src="http://eatoutmagazine.co.uk/sites/default/files/leon_christmas_wrap.jpg">
+								<img class="mySlides" src="https://www.birmingham.ac.uk/Images/Campus/business-school-outside-Cropped-510x230.jpg">
+							</div>
+							
+						<p class="paragraph"> This weekend I attended a workshop called 🎇Code At Uni🎇 which was held at the business school. It was a class exclusively for business students 📚. There were a lot more participants than I thought there would be (about 60 people in total and 30 per room). It was a really hands-on course, everybody had to bring their won laptops (no tablets as the softwares we were using weren't compatible with tablets), and snacks🍫🍪!</p>
+
+						<p class="paragraph"> Check back with me Sunday night for new pictures and new updates on what I learnt!</p>
+
+
+					</div>
+				</div>
+
+				
+	
+			</div>
+
+
+			<script type="text/javascript">
+				
+				var slideIndex = 1;
+
+
+				function showDivs(n) {
+				    var i;
+				    var x = document.getElementsByClassName("mySlides");
+				    if (n > x.length) {slideIndex = 1} 
+				    if (n < 1) {slideIndex = x.length} ;
+				    for (i = 0; i < x.length; i++) {
+				        x[i].style.display = "none"; 
+				    }
+				    x[slideIndex-1].style.display = "block"; 
+				}
+
+				setInterval(function () {
+					slideIndex++;
+					showDivs(slideIndex);
+					
+				}, 1000);
+
+				showDivs(slideIndex);
+
+			</script>
+		</body>
+</html>
+
